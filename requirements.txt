@@ -1,0 +1,25 @@
+# Core data processing
+pandas>=1.5.0
+numpy>=1.21.0
+geopandas>=0.12.0
+
+# Web framework and streaming
+fastapi>=0.80.0
+uvicorn>=0.18.0
+asyncio
+websockets>=10.3
+
+# Kafka support (alternative streaming option)
+kafka-python>=2.0.2
+confluent-kafka>=2.0.2
+
+# Visualization
+streamlit>=1.25.0
+plotly>=5.15.0
+folium>=0.14.0
+streamlit-folium>=0.15.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=1.10.0
+aiokafka>=0.8.0
